@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D07318621A220D9009BCAFC /* DetectLatticeInImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D07318521A220D8009BCAFC /* DetectLatticeInImage.cpp */; };
+		7D2076B1207835420075045A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D2076B0207835420075045A /* main.cpp */; };
+		7D34CDCA20ADF3F100317E2D /* GraphCutGridElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D34CDC620ADF3F000317E2D /* GraphCutGridElements.cpp */; };
+		7D34CDCB20ADF3F100317E2D /* ExtractFeatures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D34CDC920ADF3F100317E2D /* ExtractFeatures.cpp */; };
+		7DCD249921795FC000F3B9E6 /* MeanShiftFeatures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DCD249821795FC000F3B9E6 /* MeanShiftFeatures.cpp */; };
+		7DD216592098D8FC005B79DE /* GraphCutFeatures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DD216542098D8FC005B79DE /* GraphCutFeatures.cpp */; };
+		7DD2165A2098D8FC005B79DE /* MSEREllipse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DD216572098D8FC005B79DE /* MSEREllipse.cpp */; };
+		7DD2165B2098D8FC005B79DE /* FindLattice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DD216582098D8FC005B79DE /* FindLattice.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7D2076A3207835290075045A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7D07318421A220D7009BCAFC /* DetectLatticeInImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetectLatticeInImage.h; sourceTree = "<group>"; };
+		7D07318521A220D8009BCAFC /* DetectLatticeInImage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DetectLatticeInImage.cpp; sourceTree = "<group>"; };
+		7D2076A5207835290075045A /* latticeExtraction */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = latticeExtraction; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D2076B0207835420075045A /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../../src/testapp/main.cpp; sourceTree = "<group>"; };
+		7D34CDC620ADF3F000317E2D /* GraphCutGridElements.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GraphCutGridElements.cpp; path = ../../../src/LELib/GraphCutGridElements.cpp; sourceTree = "<group>"; };
+		7D34CDC720ADF3F100317E2D /* GraphCutGridElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraphCutGridElements.h; path = ../../../src/LELib/GraphCutGridElements.h; sourceTree = "<group>"; };
+		7D34CDC820ADF3F100317E2D /* ExtractFeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExtractFeatures.h; path = ../../../src/LELib/ExtractFeatures.h; sourceTree = "<group>"; };
+		7D34CDC920ADF3F100317E2D /* ExtractFeatures.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ExtractFeatures.cpp; path = ../../../src/LELib/ExtractFeatures.cpp; sourceTree = "<group>"; };
+		7DCD249721795FC000F3B9E6 /* MeanShiftFeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeanShiftFeatures.h; path = ../../../src/LELib/MeanShiftFeatures.h; sourceTree = "<group>"; };
+		7DCD249821795FC000F3B9E6 /* MeanShiftFeatures.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MeanShiftFeatures.cpp; path = ../../../src/LELib/MeanShiftFeatures.cpp; sourceTree = "<group>"; };
+		7DD216522098D8FC005B79DE /* MSEREllipse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSEREllipse.h; path = ../../../src/LELib/MSEREllipse.h; sourceTree = "<group>"; };
+		7DD216532098D8FC005B79DE /* FindLattice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FindLattice.h; path = ../../../src/LELib/FindLattice.h; sourceTree = "<group>"; };
+		7DD216542098D8FC005B79DE /* GraphCutFeatures.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GraphCutFeatures.cpp; path = ../../../src/LELib/GraphCutFeatures.cpp; sourceTree = "<group>"; };
+		7DD216552098D8FC005B79DE /* GraphCutFeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraphCutFeatures.h; path = ../../../src/LELib/GraphCutFeatures.h; sourceTree = "<group>"; };
+		7DD216572098D8FC005B79DE /* MSEREllipse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MSEREllipse.cpp; path = ../../../src/LELib/MSEREllipse.cpp; sourceTree = "<group>"; };
+		7DD216582098D8FC005B79DE /* FindLattice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FindLattice.cpp; path = ../../../src/LELib/FindLattice.cpp; sourceTree = "<group>"; };
+		7DF1F49820D17549008FAEBD /* CommonParameters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CommonParameters.h; path = ../../../src/LELib/CommonParameters.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D2076A2207835290075045A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D20769C207835290075045A = {
+			isa = PBXGroup;
+			children = (
+				7DD216512098D88C005B79DE /* LELib */,
+				7D2076A7207835290075045A /* latticeExtraction */,
+				7D2076A6207835290075045A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D2076A6207835290075045A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D2076A5207835290075045A /* latticeExtraction */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D2076A7207835290075045A /* latticeExtraction */ = {
+			isa = PBXGroup;
+			children = (
+				7D2076B0207835420075045A /* main.cpp */,
+			);
+			path = latticeExtraction;
+			sourceTree = "<group>";
+		};
+		7DD216512098D88C005B79DE /* LELib */ = {
+			isa = PBXGroup;
+			children = (
+				7D07318521A220D8009BCAFC /* DetectLatticeInImage.cpp */,
+				7D07318421A220D7009BCAFC /* DetectLatticeInImage.h */,
+				7DCD249821795FC000F3B9E6 /* MeanShiftFeatures.cpp */,
+				7DCD249721795FC000F3B9E6 /* MeanShiftFeatures.h */,
+				7D34CDC920ADF3F100317E2D /* ExtractFeatures.cpp */,
+				7D34CDC820ADF3F100317E2D /* ExtractFeatures.h */,
+				7D34CDC620ADF3F000317E2D /* GraphCutGridElements.cpp */,
+				7D34CDC720ADF3F100317E2D /* GraphCutGridElements.h */,
+				7DD216582098D8FC005B79DE /* FindLattice.cpp */,
+				7DD216532098D8FC005B79DE /* FindLattice.h */,
+				7DD216542098D8FC005B79DE /* GraphCutFeatures.cpp */,
+				7DD216552098D8FC005B79DE /* GraphCutFeatures.h */,
+				7DD216572098D8FC005B79DE /* MSEREllipse.cpp */,
+				7DD216522098D8FC005B79DE /* MSEREllipse.h */,
+				7DF1F49820D17549008FAEBD /* CommonParameters.h */,
+			);
+			name = LELib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D2076A4207835290075045A /* latticeExtraction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D2076AC207835290075045A /* Build configuration list for PBXNativeTarget "latticeExtraction" */;
+			buildPhases = (
+				7D2076A1207835290075045A /* Sources */,
+				7D2076A2207835290075045A /* Frameworks */,
+				7D2076A3207835290075045A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = latticeExtraction;
+			productName = latticeExtraction;
+			productReference = 7D2076A5207835290075045A /* latticeExtraction */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D20769D207835290075045A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ceylan;
+				TargetAttributes = {
+					7D2076A4207835290075045A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7D2076A0207835290075045A /* Build configuration list for PBXProject "latticeExtraction" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D20769C207835290075045A;
+			productRefGroup = 7D2076A6207835290075045A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D2076A4207835290075045A /* latticeExtraction */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D2076A1207835290075045A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2076B1207835420075045A /* main.cpp in Sources */,
+				7D34CDCA20ADF3F100317E2D /* GraphCutGridElements.cpp in Sources */,
+				7DD216592098D8FC005B79DE /* GraphCutFeatures.cpp in Sources */,
+				7DCD249921795FC000F3B9E6 /* MeanShiftFeatures.cpp in Sources */,
+				7D07318621A220D9009BCAFC /* DetectLatticeInImage.cpp in Sources */,
+				7DD2165A2098D8FC005B79DE /* MSEREllipse.cpp in Sources */,
+				7D34CDCB20ADF3F100317E2D /* ExtractFeatures.cpp in Sources */,
+				7DD2165B2098D8FC005B79DE /* FindLattice.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7D2076AA207835290075045A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7D2076AB207835290075045A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7D2076AD207835290075045A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/eigen3,
+					"${PROJECT_DIR}/../../../lib",
+					"${PROJECT_DIR}/../../../src/LELib",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/cellar/opencv3/3.4.3/lib,
+					/usr/local/lib,
+					/usr/local/Cellar/tbb/2017_U7/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-lopencv_core",
+					"-lopencv_imgproc",
+					"-lopencv_features2d",
+					"-lopencv_highgui",
+					"-ltbb",
+					"-lopencv_imgcodecs",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7D2076AE207835290075045A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/eigen3,
+					"${PROJECT_DIR}/../../../lib",
+					"${PROJECT_DIR}/../../../src/LELib",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/cellar/opencv3/3.4.3/lib,
+					/usr/local/lib,
+					/usr/local/Cellar/tbb/2017_U7/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-lopencv_core",
+					"-lopencv_imgproc",
+					"-lopencv_features2d",
+					"-lopencv_highgui",
+					"-ltbb",
+					"-lopencv_imgcodecs",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D2076A0207835290075045A /* Build configuration list for PBXProject "latticeExtraction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D2076AA207835290075045A /* Debug */,
+				7D2076AB207835290075045A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D2076AC207835290075045A /* Build configuration list for PBXNativeTarget "latticeExtraction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D2076AD207835290075045A /* Debug */,
+				7D2076AE207835290075045A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D20769D207835290075045A /* Project object */;
+}
